@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(11, 181, 181);
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contener{
+    background-color: rgb(62, 61, 59);
+    width: 650px;
+    height: 300px;
+    border-radius:  20px 20px 0px 0px;
+    box-shadow:rgba(0, 0, 0, 0.3)0px 19px 38px,rgba(0,0,0,0.22)0px 15px 12px ;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    
+}
+.left{
+   
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: rgb(62, 61, 59);
+    width: 180px;
+    height: 180px;
+    box-shadow:rgba(0, 0, 0, 0.3)0px 19px 38px,rgba(0,0,0,0.22)0px 15px 12px ;
+    color:rgb(11, 181, 181); 
+    font-size: 20px;
+    border-radius: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    cursor: pointer;
+    border-left: 4px solid rgb(11, 181, 181);
+    transition: 0.5s ;
+   
+}
+.box:hover{
+    transform: scale(1.2);
+}
+
+
+.right{
+    
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ input{
+    padding: 10px 50px;
+    margin-bottom: 3px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(11, 181, 181) ;
+    color: beige;
+    font-size:15px;
+    outline: none;
+    
+}
+button{
+    padding: 10px 50px;
+    background-color: rgb(11, 181, 181);
+    color: beige;
+    text-transform:capitalize ;
+    font-size:15px ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.note{
+    background-color:rgb(62, 61, 59) ;
+    width: 650px;
+    position: absolute;
+    top: 100%;
+    color: beige;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 0px 0px 20px 20px;
+    display: block;
+    
+    
+}
+
+
